@@ -5,7 +5,6 @@ export function newGame () {
     }
 }
 
-
 export function makeGuess(guess) {
     return {
         type: 'MAKE_GUESS',

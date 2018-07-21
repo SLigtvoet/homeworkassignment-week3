@@ -1,6 +1,5 @@
 import {wordList, wrongGuessLimit} from '../lib/game'
 
-
 export default (state = initialState, action) => {
   switch(action.type){
     case 'MAKE_GUESS':

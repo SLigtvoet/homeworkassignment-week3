@@ -5,11 +5,17 @@ import { connect } from 'react-redux'
 
 class homePageContainer extends React.PureComponent {
     render(){
-              return ( <h1>Welcome To The HangMan Game!</h1>)
-            }
-          }
+      return ( <div>
+          <h1>Welcome To The Hangman Game!</h1>
+          <div class="image">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Hangman-5.svg/2000px-Hangman-5.svg.png"/>
+          </div>
+          </div> 
+          )
+    }
+  }
 
-          export default connect(null, {})(homePageContainer)
+export default connect(null, {})(homePageContainer)
 
         
     

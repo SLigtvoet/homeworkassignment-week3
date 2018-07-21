@@ -27,6 +27,46 @@
   to { transform: rotate(360deg); }
 }
 
-h1 {
-  color: blue;
+
+button {
+  margin-top: 40px;
+  border-radius: 15px;  
+  background-color: #d32f2f;
+  color: white;
+  width: 200px;
+  height: 30px;
+}
+
+.menu {
+  height: 55px;
+  width: 100%;
+  background-color: #303f9f;
+}
+
+.menubutton a {
+  width: 150px;
+  height: 30px;
+  float: left;
+  padding: 15px;
+  margin-right:2px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 17pt;
+}
+
+.word {
+  width: 100%;
+  height: 50px;
+  font-size: 20pt;
+}
+
+.winnerLoser {
+  width: 100%;
+  padding:20px 0;
+  font-size: 30pt;
+}
+
+.image img {
+  width: 300px;
+
 }

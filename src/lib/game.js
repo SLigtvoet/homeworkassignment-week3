@@ -7,7 +7,7 @@ export const showGuess = (word, guesses) => {
   }
   
   export const wrongGuessLimit = (word, guesses) => {
-    return guesses.filter(guess => word.indexOf(guess) < 0).length >= 6
+    return guesses.filter(guess => word.indexOf(guess) < 0).length >= 10
   }
   
   export const isWinner = (word, guesses) => {
